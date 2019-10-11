@@ -1,4 +1,6 @@
-# fiche-express-application-generator
+# Fiche express application generator
+
+## express-application-generator
 Explications rapides sur l'utilisation d'express generator :
 
 On utilise l'outil de génération d'application, express-generator pour créer rapidement
@@ -52,7 +54,7 @@ views
 
 La structure de l'app créée par le générateur n'est est qu'une possible parmi d'autres. Soyez libres d'utiliser cette structure ou de la modifier pour mieux s'adapter à vos besoins.
 
-# fiche-express-mvc-generator
+## express-mvc-generator
 Générateur d'application Model View Controller
 
 installation :
