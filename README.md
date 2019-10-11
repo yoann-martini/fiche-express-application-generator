@@ -84,6 +84,14 @@ Installer les dépendances :
 
 `$ cd myapp && npm install`
 
+Les réglages importants :
+
+1. Ouvrir config/database.js, configurer votre mongo db
+2. ouvrir config/constants.js, configurer vos constantes (SMTP ...)
+3. Si vous voulez utiliser SMTP, dé-commentez les lignes de 95 à 98 du fichier passport.js
+
+En suite
+
 lancer l'app :
 
 `$ DEBUG=myapp:* node app or nodemon app`
@@ -131,11 +139,7 @@ Structure de fichiers :
     
   * package.json
     
-Les réglages importants :
-1. Ouvrir config/database.js, configurer votre mongo db
-2. ouvrir config/constants.js, configurer vos constantes (SMTP ...)
-3. Si vous voulez utiliser SMTP, dé-commentez les lignes de 95 à 98 du fichier passport.js
-
+    
 Lancez le générateur :
 
 $ node app or nodemon app
