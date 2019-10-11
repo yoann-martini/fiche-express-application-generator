@@ -11,30 +11,30 @@ avec une version moderne de node (à partir de Node.js 8.2.0) : $ npx express-ge
 
 Pour les versions antérieures:
 
-$ npm install -g express-generator 
+`$ npm install -g express-generator`
 
-$ express
+`$ express`
 
 Pour les options :
 
-$ express -h
+`$ express -h`
 
 Un exemple qui génère un Express app nommé myapp :
 
-$ express --view=ejs myapp
+`$ express --view=ejs myapp`
 
 
 L'app va être créée dans un dossier nommé myapp dans le dossier de travail courant et le view engine va être paramétré sur ejs
 
 Installer les dépendances :
 
-$ cd myapp
+`$ cd myapp`
 
-$ npm install
+`$ npm install`
 
 Lancer l'app sur MacOS
 
-$ DEBUG=myapp:* npm start
+`$ DEBUG=myapp:* npm start`
 
 Lancer l'app sur Windows
 
@@ -44,22 +44,22 @@ Ensuite accèdez a l'app via votre navigateur : http://localhost:3000/
 
 L'app générée à la structure suivante :
 
-app.js
-bin
-    www
-package.json
-public
-    images
-    javascripts
-    stylesheets
-        style.css
-routes
-    index.js
-    users.js
-views
-    error.ejs
-    index.ejs
-    layout.ejs
+* app.js
+* bin
+    * www
+* package.json
+* public
+    * images
+    * javascripts
+    * stylesheets
+        * style.css
+* routes
+    * index.js
+    * users.js
+* views
+    * error.ejs
+    * index.ejs
+    * layout.ejs
 
 7 dossiers, 9 fichiers
 
@@ -74,23 +74,23 @@ installation :
 
 pour les options :
 
-$ express -h
+`$ express -h`
 
 Un exemple qui génère un Express app nommé myapp dans le dossier de travail courant :
 
-$ express myapp
+`$ express myapp`
 
 Installer les dépendances :
 
-$ cd myapp && npm install
+`$ cd myapp && npm install`
 
 lancer l'app :
 
-$ DEBUG=myapp:* node app or nodemon app
+`$ DEBUG=myapp:* node app or nodemon app`
 
 Structure de fichiers :
 
-`$express myapp
+`$express myapp`
 
 * myapp
   * app
@@ -129,7 +129,7 @@ Structure de fichiers :
       
   * app.js
     
-  * package.json`
+  * package.json
     
 Les réglages importants :
 1. Ouvrir config/database.js, configurer votre mongo db
