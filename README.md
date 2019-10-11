@@ -10,24 +10,35 @@ Installer le module :
 avec une version moderne de node (à partir de Node.js 8.2.0) : $ npx express-generator
 
 Pour les versions antérieures:
+
 $ npm install -g express-generator 
+
 $ express
 
 Pour les options :
+
 $ express -h
 
-Un exemple qui génère un Express app nommé myapp : $ express --view=ejs myapp
+Un exemple qui génère un Express app nommé myapp :
+
+$ express --view=ejs myapp
+
+
 L'app va être créée dans un dossier nommé myapp dans le dossier de travail courant et le view engine va être paramétré sur ejs
 
 Installer les dépendances :
+
 $ cd myapp
+
 $ npm install
 
 Lancer l'app sur MacOS
+
 $ DEBUG=myapp:* npm start
 
 Lancer l'app sur Windows
-> set DEBUG=myapp:* & npm start
+
+`> set DEBUG=myapp:* & npm start`
 
 Ensuite accèdez a l'app via votre navigateur : http://localhost:3000/ 
 
@@ -58,21 +69,27 @@ La structure de l'app créée par le générateur n'est est qu'une possible parm
 Générateur d'application Model View Controller
 
 installation :
+
 `$ npm install express-mvc-generator -g`
 
 pour les options :
-express -h
+
+$ express -h
 
 Un exemple qui génère un Express app nommé myapp dans le dossier de travail courant :
+
 $ express myapp
 
 Installer les dépendances :
+
 $ cd myapp && npm install
 
 lancer l'app :
+
 $ DEBUG=myapp:* node app or nodemon app
 
 Structure de fichiers :
+
 $express myapp
 
 * myapp
@@ -120,10 +137,13 @@ Les réglages importants :
 3. Si vous voulez utiliser SMTP, dé-commentez les lignes de 95 à 98 du fichier passport.js
 
 Lancez le générateur :
+
 $ node app or nodemon app
 
 Les urls de la démo :
+
 Signup : http://localhost:8042/signup
+
 Login : http://localhost:8042/login
 
 Vous pouvez configurer le générateur avec les lignes de commandes visibles suite à la commande du help
@@ -138,23 +158,40 @@ Des exemples express mvc simples et compréhensibles inclus
 Y sont inclus des  modules npm comme : pm2 ,async, body-parse, sessions, flash, cookie, dateformat, mongoose, nodemailer , nodemon, passport
 
 Supporte ces View engines:
+
 Jade
+
 Handlebars
+
 Swig
+
 EJS
+
 Marko
+
 Nunjucks
+
 Supported CSS pre-processors
+
 SASS (both node-sass and ruby sass)
+
 LESS
+
 Stylus
 
+
 Supporte ces Databases (avec MVC structure):
+
 MongoDB
+
 MySQL
+
 PostgreSQL
+
 RethinkDB
+
 SQLite
+
 
 Aide et assistance : rajaram.tavalam@gmail.com
 
