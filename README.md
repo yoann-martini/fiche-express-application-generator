@@ -90,7 +90,7 @@ $ DEBUG=myapp:* node app or nodemon app
 
 Structure de fichiers :
 
-$express myapp
+`$express myapp
 
 * myapp
   * app
@@ -129,7 +129,7 @@ $express myapp
       
   * app.js
     
-  * package.json
+  * package.json`
     
 Les réglages importants :
 1. Ouvrir config/database.js, configurer votre mongo db
@@ -142,9 +142,9 @@ $ node app or nodemon app
 
 Les urls de la démo :
 
-Signup : http://localhost:8042/signup
+`Signup : http://localhost:8042/signup`
 
-Login : http://localhost:8042/login
+`Login : http://localhost:8042/login`
 
 Vous pouvez configurer le générateur avec les lignes de commandes visibles suite à la commande du help
 
@@ -178,6 +178,7 @@ SASS (both node-sass and ruby sass)
 LESS
 
 Stylus
+
 -------------------------------------------
 Supporte ces Databases (avec MVC structure):
 
