@@ -75,44 +75,44 @@ $ DEBUG=myapp:* node app or nodemon app
 Structure de fichiers :
 $express myapp
 
-myapp
-  app
-    controllers
-      home.js
-    models
-      home.js
-    views
-      404.ejs
-      error.ejs
-      index.ejs
-      login.ejs
-      signup.ejs
+* myapp
+  * app
+    * controllers
+      * home.js
+    * models
+      * home.js
+    * views
+      * 404.ejs
+      * error.ejs
+      * index.ejs
+      * login.ejs
+      * signup.ejs
       
-   config
-     auth.js
-     constants.js
-     database.js
-     passport.js
-     routes.js
+   * config
+     * auth.js
+     * constants.js
+     * database.js
+     * passport.js
+     * routes.js
      
-  lib
-    email.js
+  * lib
+    * email.js
     
-  node_modules
+  * node_modules
   
-  public.js
-    css
-      style.css
-    js
-      script.js
-    img
-      img.jpg
-    uploads
-      img.jpg
+  * public.js
+    * css
+      * style.css
+    * js
+      * script.js
+    * img
+      * img.jpg
+    * uploads
+      * img.jpg
       
-    app.js
+    * app.js
     
-    package.json
+    * package.json
     
 Les réglages importants :
 1. Ouvrir config/database.js, configurer votre mongo db
