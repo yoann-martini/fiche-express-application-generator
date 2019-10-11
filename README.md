@@ -7,7 +7,9 @@ On utilise l'outil de génération d'application, express-generator pour créer 
 un squelette d'application.
  
 Installer le module :
-avec une version moderne de node (à partir de Node.js 8.2.0) : $ npx express-generator
+avec une version moderne de node (à partir de Node.js 8.2.0) : 
+
+`$ npx express-generator`
 
 Pour les versions antérieures:
 
