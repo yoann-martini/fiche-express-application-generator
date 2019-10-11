@@ -88,12 +88,12 @@ $express myapp
       * login.ejs
       * signup.ejs
       
-   * config
-     * auth.js
-     * constants.js
-     * database.js
-     * passport.js
-     * routes.js
+  * config
+    * auth.js
+    * constants.js
+    * database.js
+    * passport.js
+    * routes.js
      
   * lib
     * email.js
@@ -110,9 +110,9 @@ $express myapp
     * uploads
       * img.jpg
       
-    * app.js
+  * app.js
     
-    * package.json
+  * package.json
     
 Les réglages importants :
 1. Ouvrir config/database.js, configurer votre mongo db
