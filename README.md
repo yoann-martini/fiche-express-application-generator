@@ -58,7 +58,7 @@ La structure de l'app créée par le générateur n'est est qu'une possible parm
 Générateur d'application Model View Controller
 
 installation :
-$ npm install express-mvc-generator -g
+`$ npm install express-mvc-generator -g`
 
 pour les options :
 express -h
